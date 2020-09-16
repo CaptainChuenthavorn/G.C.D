@@ -10,9 +10,19 @@ int main()
 		if (n1 % i == 0 && n2 % i == 0) {
 			GCD = i;
 		}
-
 	}
 	printf("GCD : %d", GCD);
-
 	return 0;
 }
+/*
+	int input;
+	int* p;
+	printf("How many numbers you want to compare ? : ");
+	scanf("%d", &input);
+	p = (int*)malloc(sizeof(int));
+	printf("What are they ? : ");
+	for (int i = 0;i < input;i++) {
+		scanf("%d",  &p[i]);
+	}
+	printf("\nMAX number is : %d\nMIN number is : %d", max(p,input), min(p, input));
+*/
